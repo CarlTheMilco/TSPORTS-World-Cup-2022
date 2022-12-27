@@ -1,0 +1,41 @@
+{
+  "project_info": {
+    "project_number": "839028980562",
+    "firebase_url": "https://football-33775-default-rtdb.firebaseio.com",
+    "project_id": "football-33775",
+    "storage_bucket": "football-33775.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:839028980562:android:4fa21c4c267c5df876188b",
+        "android_client_info": {
+          "package_name": "im.milco.primetv.livetv"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "839028980562-vfl3btlriq32evevr1164qtapki1ajpl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyColbrp_zuIozqQImJ2iMxpWolLr3zl9NU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "839028980562-vfl3btlriq32evevr1164qtapki1ajpl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      },
+      "admob_app_id": "ca-app-pub-1419975588371576~4504570888"
+    }
+  ],
+  "configuration_version": "1"
+}

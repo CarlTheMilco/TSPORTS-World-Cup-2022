@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/myBackground"
+    android:layout_above="@+id/banner_container"
+
+    tools:context=".InfoActivity">
+
+
+
+    <LinearLayout
+        android:id="@+id/topbar"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:id="@+id/btnBack"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:background="@drawable/left_arrow"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:layout_marginVertical="15dp"
+            android:layout_weight="1" />
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/ubuntu_light"
+            android:text="@string/football_videos"
+            android:textColor="@color/fcolor"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_below="@+id/topbar"
+        android:background="@drawable/dark_background"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_below="@+id/topbar"
+        android:background="@drawable/dark_background"
+        tools:ignore="MissingConstraints" />
+
+    <LinearLayout
+        android:id="@+id/blackContain"
+        android:layout_width="match_parent"
+        android:layout_height="190dp"
+        android:layout_below="@+id/topbar"
+        android:layout_marginTop="160dp"
+        android:background="@drawable/background_gradient"
+        android:orientation="vertical">
+
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/name1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:fontFamily="@font/ubuntu_light"
+                android:paddingEnd="10dp"
+                android:text="Egypt"
+                android:textColor="@color/scolor"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:ignore="RtlSymmetry" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="5dp"
+                android:background="@drawable/green_radius"
+                android:fontFamily="@font/ubuntu_light"
+                android:gravity="center"
+                android:padding="3dp"
+                android:text="@string/vs"
+                android:textColor="@color/scolor"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/name2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:fontFamily="@font/ubuntu_light"
+                android:paddingHorizontal="10dp"
+                android:text="Gabon"
+                android:textColor="@color/scolor"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/green_radius"
+            android:fontFamily="@font/ubuntu_light"
+            android:paddingHorizontal="10dp"
+            android:text="2021-11-16"
+            android:textColor="@color/scolor"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/cup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/ubuntu_light"
+            android:paddingHorizontal="10dp"
+            android:text="WORLD CUP: Africa, Qualification Second stage"
+            android:textColor="@color/fcolor"
+            android:textSize="12sp"
+            android:textStyle="normal" />
+
+        <include layout="@layout/lay_banner_ad" />
+
+
+    </LinearLayout>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/image"
+        tools:ignore="InvalidId" />
+
+
+</RelativeLayout>

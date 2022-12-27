@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">839028980562-vfl3btlriq32evevr1164qtapki1ajpl.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://football-33775-default-rtdb.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">839028980562</string>
+    <string name="google_api_key" translatable="false">AIzaSyColbrp_zuIozqQImJ2iMxpWolLr3zl9NU</string>
+    <string name="google_app_id" translatable="false">1:839028980562:android:4fa21c4c267c5df876188b</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyColbrp_zuIozqQImJ2iMxpWolLr3zl9NU</string>
+    <string name="google_storage_bucket" translatable="false">football-33775.appspot.com</string>
+    <string name="project_id" translatable="false">football-33775</string>
+</resources>

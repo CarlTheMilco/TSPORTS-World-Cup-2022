@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">TSPORTS World Cup 2022™</string>
+    <string name="football_videos">Football Live</string>
+    <string name="vs">VS</string>
+    <string name="checking_connection">Checking Connection</string>
+    <string name="try_again">Check your Connection and Try Again</string>
+    <string name="btn_try_again">Try Again</string>
+    <string name="are_you_ready">Are you Ready?</string>
+    <string name="start">Start</string>
+    <string name="live_score">Live Score</string>
+    <string name="downloading" translatable="false">"Please wait...Downloading Media"</string>
+
+    <string name="dl_started" translatable="false">Download started</string>
+            <!--    change Ads-->
+            <!--    app ID-->
+    <string name="appID">ca-app-pub-4953078587162761~9865992281</string>
+            <!--    banner-->
+    <string name="banner">ca-app-pub-4953078587162761/2744952688</string>
+            <!--    banner_manual-->
+    <string name="banner_manual">ca-app-pub-4953078587162761/9118789347</string>
+            <!--    Admob interstitial-->
+    <string name="interstitial">ca-app-pub-4953078587162761/7566297857</string>
+
+    <!--MAX ad ids-->
+    <string name="max_banner">4aaddb0b7b21658b</string>
+    <string name="max_interstitial">3ec0de280de11c03</string>
+    <string name="copyright_info">Prepare yourself for your authentic FIFA World Cup 2022™</string>
+
+    <!-- Huawei Ads -->
+    <string name="banner_ad_id">o34bvgd1fx</string>
+    <string name="ad_id_splash">j1ked6b20j</string>
+    <string name="image_ad_id">o36pp0y3d4</string>
+    <string name="ad_id_splash_landscape">m8dfp0fypd</string>
+    <string name="media_name">TSPORTS FIFA World Cup 2022™</string>
+
+
+
+</resources>

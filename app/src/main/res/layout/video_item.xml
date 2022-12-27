@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:background="@drawable/green_for_btn"
+    android:layout_margin="5dp"
+    android:paddingVertical="5dp"
+    android:layout_height="80dp">
+
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/videoPosition"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Video 1"
+            android:textSize="22sp"
+            android:textColor="@color/scolor"
+            android:layout_marginStart="10dp"
+            android:fontFamily="@font/ubuntu_light"
+            />
+        <TextView
+            android:id="@+id/vidTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1 - 1"
+            android:textSize="15sp"
+            android:textColor="@color/scolor"
+            android:layout_marginStart="10dp"
+            android:fontFamily="@font/ubuntu_light"
+            />
+
+
+
+    </LinearLayout>
+
+
+        <ImageView
+            android:id="@+id/btnWatch"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/play"
+            android:layout_gravity="center"
+            android:layout_marginEnd="10dp"
+            />
+
+
+</LinearLayout>
